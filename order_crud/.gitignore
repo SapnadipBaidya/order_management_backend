@@ -1,0 +1,30 @@
+# Ignore class files
+*.class
+
+# Ignore build directories
+/build/
+/out/
+
+# Ignore IDEA project files
+.idea/
+/*.iml
+
+# Ignore Eclipse project files
+.classpath
+.project
+.settings/
+
+# Ignore MacOS hidden files
+.DS_Store
+
+# Ignore logs
+*.log
+
+# Ignore other common files
+target/
+bin/
+gen/
+
+# Ignore MacOS hidden files
+.DS_Store
+Thumbs.db

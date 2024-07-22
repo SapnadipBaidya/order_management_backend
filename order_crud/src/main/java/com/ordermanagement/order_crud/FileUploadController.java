@@ -1,4 +1,5 @@
 package com.ordermanagement.order_crud;
+
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
@@ -36,8 +37,7 @@ public class FileUploadController {
 
             return new ResponseEntity<>("Successfully uploaded - " + file.getOriginalFilename(), HttpStatus.OK);
 
-        }
-        catch (IOException e) {
+        } catch (IOException e) {
             System.out.println("sap");
             e.printStackTrace();
             return new ResponseEntity<>(HttpStatus.INTERNAL_SERVER_ERROR);
